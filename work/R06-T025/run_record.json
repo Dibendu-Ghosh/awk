@@ -43,13 +43,13 @@
   },
   "startup_overhead": {
     "runs_sec": [
-      0.004698624994489364,
-      0.0047627080057282,
-      0.004771874999278225,
-      0.004791540995938703,
-      0.004845749994274229
+      0.004578209001920186,
+      0.0047412909916602075,
+      0.004753957997309044,
+      0.0048349999997299165,
+      0.006758375006029382
     ],
-    "median_ms": 4.771874999278225,
+    "median_ms": 4.753957997309044,
     "analysis": "Process startup & gawk bytecode compilation overhead (~5-6ms), constant across input sizes."
   },
   "benchmarks": {
@@ -59,17 +59,17 @@
       "expected_encoded": "dgoo",
       "iterations_per_rep": 20000,
       "runs_sec": [
-        0.019926041990402155,
-        0.02049412499764003,
-        0.020557584008201957,
-        0.02057970799796749,
-        0.020597333001205698
+        0.02337904200248886,
+        0.023446792009053752,
+        0.02365866699256003,
+        0.023965457992744632,
+        0.02418608400330413
       ],
-      "median_total_sec": 0.020557584008201957,
-      "startup_median_sec": 0.004771874999278225,
-      "net_algo_sec": 0.015785709008923732,
-      "net_cost_per_call_us": 0.7892854504461866,
-      "gross_cost_per_call_us": 1.0278792004100978,
+      "median_total_sec": 0.02365866699256003,
+      "startup_median_sec": 0.004753957997309044,
+      "net_algo_sec": 0.018904708995250985,
+      "net_cost_per_call_us": 0.9452354497625493,
+      "gross_cost_per_call_us": 1.1829333496280015,
       "theoretical_operations": {
         "split_assignments": 4,
         "sort_comparisons_est": 8.0,
@@ -84,17 +84,17 @@
       "expected_encoded": "elmnos",
       "iterations_per_rep": 20000,
       "runs_sec": [
-        0.024637375012389384,
-        0.024976624990813434,
-        0.025063583001610823,
-        0.025446041996474378,
-        0.02600725000957027
+        0.027829459009808488,
+        0.027967625006567687,
+        0.028188790995045565,
+        0.02825779099657666,
+        0.029102000000420958
       ],
-      "median_total_sec": 0.025063583001610823,
-      "startup_median_sec": 0.004771874999278225,
-      "net_algo_sec": 0.020291708002332598,
-      "net_cost_per_call_us": 1.01458540011663,
-      "gross_cost_per_call_us": 1.2531791500805411,
+      "median_total_sec": 0.028188790995045565,
+      "startup_median_sec": 0.004753957997309044,
+      "net_algo_sec": 0.02343483299773652,
+      "net_cost_per_call_us": 1.171741649886826,
+      "gross_cost_per_call_us": 1.4094395497522783,
       "theoretical_operations": {
         "split_assignments": 6,
         "sort_comparisons_est": 15.51,
@@ -109,17 +109,17 @@
       "expected_encoded": "aceeghirrsst",
       "iterations_per_rep": 20000,
       "runs_sec": [
-        0.03477345799910836,
-        0.03501341700030025,
-        0.0355311249877559,
-        0.03579283400904387,
-        0.03586008300771937
+        0.0404372089979006,
+        0.04055987499305047,
+        0.04060191700409632,
+        0.040757874987320974,
+        0.041447625000728294
       ],
-      "median_total_sec": 0.0355311249877559,
-      "startup_median_sec": 0.004771874999278225,
-      "net_algo_sec": 0.030759249988477677,
-      "net_cost_per_call_us": 1.5379624994238839,
-      "gross_cost_per_call_us": 1.776556249387795,
+      "median_total_sec": 0.04060191700409632,
+      "startup_median_sec": 0.004753957997309044,
+      "net_algo_sec": 0.03584795900678728,
+      "net_cost_per_call_us": 1.7923979503393639,
+      "gross_cost_per_call_us": 2.030095850204816,
       "theoretical_operations": {
         "split_assignments": 12,
         "sort_comparisons_est": 43.02,
